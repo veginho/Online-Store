@@ -1,0 +1,54 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-dark" [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Amanet Store</a></mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a type="button" class="btn btn-dark" routerLink="/Contact">
+          <mdb-icon fas icon="envelope"></mdb-icon>Contact<span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-dark"><mdb-icon fas icon="cog"></mdb-icon> Setari</button>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item">
+        <a *ngIf="!loggedin()" type="button" class="btn btn-dark" routerLink="/login"><mdb-icon fas icon="user"></mdb-icon>Login</a>
+        <a *ngIf="loggedin()" type="button" class="btn btn-dark" (click)="GetOut()"><mdb-icon fas icon="user"></mdb-icon>Log out</a>
+      </li>
+    </ul>
+    <!-- Links -->
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+
+<div class="container-md">
+    <form class="text-center border border-light p-5" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <p class="h4 mb-4">Contactati-ne</p>
+        <input type="text" formControlName="contactFormName" id="defaultContactFormName" mdbInput
+          class="form-control mb-4" placeholder="Name">
+        <input type="email" formControlName="contactFormEmail" id="defaultContactFormEmail" mdbInput
+          class="form-control mb-4" placeholder="E-mail">
+        <label>Subiect</label>
+        <select formControlName="contactFormSubjects" class="browser-default custom-select mb-4">
+          <option value="" disabled>Choose option</option>
+          <option value="1" selected>Feedback</option>
+          <option value="2">Raporteaza un bug</option>
+          <option value="3">Cerere de returnare a banilor</option>
+          <option value="4">Produsul nu este cel comandat</option>
+        </select>
+        <div class="form-group">
+          <textarea formControlName="contactFormMessage" class="form-control rounded-0" mdbInput id="exampleFormControlTextarea2"
+            rows="3" placeholder="Message"></textarea>
+        </div>
+        <button mdbBtn color="info" class="z-depth-0 my-4 waves-effect"
+          mdbWavesEffect type="submit" [disabled]="disabledSubmitButton">Trimite</button>
+      </form>
+</div>

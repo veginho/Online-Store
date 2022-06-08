@@ -1,0 +1,76 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-dark" [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Amanet Store</a></mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a type="button" class="btn btn-dark" routerLink="/Contact">
+          <mdb-icon fas icon="envelope"></mdb-icon>Contact<span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-dark"><mdb-icon fas icon="cog"></mdb-icon> Setari</button>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item">
+        <a *ngIf="!loggedin()" type="button" class="btn btn-dark" routerLink="/login"><mdb-icon fas icon="user"></mdb-icon>Login</a>
+        <a *ngIf="loggedin()" type="button" class="btn btn-dark" (click)="GetOut()"><mdb-icon fas icon="user"></mdb-icon>Log out</a>
+      </li>
+    </ul>
+    <!-- Links -->
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+
+
+<section class="vh-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex align-items-center justify-content-center h-100">
+      <div class="col-md-8 col-lg-7 col-xl-6">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+          class="img-fluid" alt="Phone image">
+      </div>
+      <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+        <form [formGroup]="checkoutForm" (ngSubmit)="SubmitLogin()">
+          <div class="form-outline mb-4">
+            <input type="email" id="form1Example13" class="form-control form-control-lg" placeholder="E-mail" formControlName="username" required />
+          </div>
+
+          <div class="form-outline mb-4">
+            <input type="password" id="form1Example23" class="form-control form-control-lg" placeholder="Password" formControlName="password" required/>
+          </div>
+
+          <div class="d-flex justify-content-around align-items-center mb-4">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+              <label class="form-check-label" for="form1Example3"> Remember me </label>
+            </div>
+            <a routerLink="/Register">Nu aveti cont?</a>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+
+          <div class="divider d-flex align-items-center my-4">
+            <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+          </div>
+
+          <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"
+            role="button">
+            <i class="fab fa-facebook-f me-2"></i>Continua cu Facebook
+          </a>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<router-outlet></router-outlet>

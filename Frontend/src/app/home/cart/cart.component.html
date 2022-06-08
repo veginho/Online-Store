@@ -1,0 +1,18 @@
+<div *ngIf="cartItems.length===0" class="alert alert-info">
+    Nu aveti produse adaugate in cos.
+</div>
+<ul *ngIf="cartItems.length>0" class="list-group">
+    <li class="list-group-item" *ngFor="let carts of cartItems">
+        <span>{{carts.produs.ProductName}}</span> x
+        <span>{{carts.qty}}</span>
+    </li>
+
+    <li *ngIf="loggedin()" class="list-group-item active">
+        <span  style="width: 100%;" (click)="Order()">Plaseaza comanda</span>
+    </li>
+</ul>
+
+
+
+
+

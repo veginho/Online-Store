@@ -1,0 +1,32 @@
+[
+    {
+        "id":"1",
+        "name":"Iphone 13 Pro",
+        "category":"Telefoane",
+        "price":"3350"
+    },
+    {
+        "id":"2",
+        "name":"Samsung Galaxy S20",
+        "category":"Telefoane",
+        "price":"3000"
+    },
+    {
+        "id":"3",
+        "name":"Frigider Samsung",
+        "category":"Frigidere",
+        "price":"1300"
+    },
+    {
+        "id":"4",
+        "name":"Ceas Tommy Hilfiger",
+        "category":"Ceasuri",
+        "price":"500"
+    },
+    {
+        "id":"5",
+        "name":"Ceas Hugo Boss",
+        "category":"Ceasuri",
+        "price":"700"
+    }
+]

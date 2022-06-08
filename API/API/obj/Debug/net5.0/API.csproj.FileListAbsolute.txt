@@ -1,0 +1,127 @@
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\appsettings.Development.json
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\appsettings.json
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\API.exe
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\API.deps.json
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\API.runtimeconfig.json
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\API.runtimeconfig.dev.json
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\API.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\ref\API.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\API.pdb
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.AssemblyInfoInputs.cache
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.AssemblyInfo.cs
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.csproj.CoreCompileInputs.cache
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Manifest.cache
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.xml
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\scopedcss\bundle\API.styles.css
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.RazorTargetAssemblyInfo.cache
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.dll
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\ref\API.dll
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.pdb
+I:\anu3\Negrea_Amanet\API\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Humanizer.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Newtonsoft.Json.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\System.Runtime.Caching.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+I:\anu3\Negrea_Amanet\API\API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\appsettings.Development.json
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\appsettings.json
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\API.exe
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\API.deps.json
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\API.runtimeconfig.json
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\API.runtimeconfig.dev.json
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\API.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\ref\API.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\API.pdb
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Humanizer.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Programe\Api Amanet V\API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.AssemblyInfoInputs.cache
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.AssemblyInfo.cs
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.csproj.CoreCompileInputs.cache
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Manifest.cache
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.xml
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\scopedcss\bundle\API.styles.css
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.RazorTargetAssemblyInfo.cache
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.csproj.CopyComplete
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.dll
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\ref\API.dll
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.pdb
+D:\Programe\Api Amanet V\API\obj\Debug\net5.0\API.genruntimeconfig.cache

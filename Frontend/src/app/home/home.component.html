@@ -1,0 +1,93 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-dark" [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" href="#">Amanet Store</a></mdb-navbar-brand>
+  
+    <!-- Collapsible content -->
+    <links>
+  
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a type="button" class="btn btn-dark" routerLink="/Contact">
+            <mdb-icon fas icon="envelope"></mdb-icon>Contact<span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#basicExample" (click)="frame.show()" mdbWavesEffect style="width: 100%;"><mdb-icon fas icon="cog"></mdb-icon> Setari</button>
+        </li>
+  
+        <!-- Dropdown -->
+        <li class="nav-item">
+            <a *ngIf="!loggedin()" type="button" class="btn btn-dark" routerLink="/login"><mdb-icon fas icon="user"></mdb-icon>Login</a>
+            <a *ngIf="loggedin()" type="button" class="btn btn-dark" (click)="GetOut()"><mdb-icon fas icon="user"></mdb-icon>Log out</a>
+        </li>
+      </ul>
+      <!-- Links -->
+    </links>
+    <!-- Collapsible content -->
+  
+  </mdb-navbar>
+  <!--/.Navbar-->
+  <div class="d-flex justify-content-center">
+    <div class="md-form">
+      <input type="text" class="form-control form-control-md" [(ngModel)]="InputTerm" placeholder="Cauta produse" >
+    </div>
+  </div>
+  
+<!-- [(ngModel)]="term"  -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <app-filters></app-filters>
+      </div>
+      <div class="col-md-8">
+        <app-product-list  [term]="InputTerm"></app-product-list>
+      </div>
+      <div class="col">
+        <app-cart></app-cart>
+      </div>
+
+    </div>
+  </div>
+
+  
+<div mdbModal #frame="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h4 class="modal-title" id="myModalLabel">Actualizeaza parola</h4>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide()">
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-container">
+        <div class="form-outline mb-3">
+          <label class="form-label" for="form3Example"><h5>Vechea parola</h5></label>
+          <input type="password" id="form3Example" class="form-control form-control-lg"
+            placeholder="Introduceti vechea parola" formControlName="oldpass" required/>
+        </div>
+        <div class="form-outline mb-3">
+          <label class="form-label" for="form3Example4"><h5>Noua parola</h5></label>
+          <input type="password" id="form3Example4" class="form-control form-control-lg"
+            placeholder="Introduceti noua parola" formControlName="newpass" required/>
+        </div>
+    </form>
+    </div>
+    
+    <div class="modal-footer">
+      <button type="button" mdbBtn color="primary" class="waves-light" mdbWavesEffect data-dismiss="modal" (click)="frame.hide()">Close</button>
+      <button mdbBtn color="primary" class="waves-light" mdbWavesEffect (click)="SaveChanges()">Salveaza Modificarile</button>
+    </div>
+  </div>
+</div>
+</div>
+
+  <router-outlet></router-outlet>
+    
+    
+  

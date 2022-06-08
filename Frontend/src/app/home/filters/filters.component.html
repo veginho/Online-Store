@@ -1,0 +1,18 @@
+<div class="card">
+    <div class="card-header">
+        <strong>Filtre</strong>
+    </div>
+    <div class="card-body">
+        <form [formGroup]="FormMinMax" (ngSubmit)="SubmitFilter()">
+            <div class="form-group">
+                <label for="from">Minim</label>
+                <input type="number" id="from" formControlName="minim"  form class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="to">Maxim</label>
+                <input type="number" id="to" formControlName="maxim" class="form-control">
+            </div>
+            <button class="btn btn-primary btn-block btn-sm" type="submit">Aplica filtre</button>
+        </form>
+    </div>
+</div>

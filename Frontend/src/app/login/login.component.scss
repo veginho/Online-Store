@@ -1,0 +1,31 @@
+// *{
+//     box-sizing: border-box;
+// }
+// .container{
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-top: 15%;
+//     width: 100%;
+//     box-shadow: 10px 10px black;
+//     border-radius: 40px;
+// }
+// .column {
+//     float: left;
+//     width: 50%;
+//     padding: 5px;
+//   }
+// .row::after {
+//     content: "";
+//     clear: both;
+//     display: table;
+// }
+// .back-image{
+//     background-image: url("/../assets/background.jpg");
+// }
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
