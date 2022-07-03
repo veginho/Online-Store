@@ -9,5 +9,7 @@ namespace API.Data
 	{
 		public int Minim { get; set; }
 		public int Maxim { get; set; }
+
+		public string SortType { get; set; }
 	}
 }

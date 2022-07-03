@@ -31,6 +31,9 @@ export class ProductListComponent implements OnInit,OnChanges {
     this.service.getProducts().subscribe(
       (data:Products[])=>{
         console.log(data);
+
+
+
         this.produse=data;
       });
 

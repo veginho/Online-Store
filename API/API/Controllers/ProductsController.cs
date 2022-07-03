@@ -70,8 +70,26 @@ namespace API.Controllers
 		[HttpPost("filter")]
 		public List<Product> FilterPrice([FromBody] Filter filtre)
 		{
-			List<Product> list=_db.Products.Where(a=>a.Price>=filtre.Minim&&a.Price<=filtre.Maxim).ToList();
-			return list;
+			List<Product> products = new List<Product>();
+			if(filtre.SortType == null)
+            {
+				List<Product> list = _db.Products.Where(a => a.Price >= filtre.Minim && a.Price <= filtre.Maxim).ToList();
+				products = list;
+				//return list;
+			}
+			if(filtre.SortType == "Descrescator")
+            {
+				List<Product> list = _db.Products.Where(a => a.Price >= filtre.Minim && a.Price <= filtre.Maxim).OrderBy(x=>x.Price).ToList();
+				products = list;
+				//return list;
+			}
+			if (filtre.SortType == "Crescator")
+			{
+				List<Product> list = _db.Products.Where(a => a.Price >= filtre.Minim && a.Price <= filtre.Maxim).OrderByDescending(x => x.Price).ToList();
+				products = list;
+				//return list;
+			}
+			return products;
 		}
 
 	}
