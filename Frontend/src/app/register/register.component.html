@@ -1,13 +1,16 @@
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-dark" [containerInside]="false">
 
   <!-- Navbar brand -->
-  <mdb-navbar-brand><a class="navbar-brand" href="#">Amanet Store</a></mdb-navbar-brand>
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Home</a></mdb-navbar-brand>
 
   <!-- Collapsible content -->
   <links>
 
     <!-- Links -->
     <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <button type="button" class="btn btn-dark" routerLink="/login"><mdb-icon fas icon="gift"></mdb-icon>Oferte speciale</button>
+      </li>
       <li class="nav-item active">
         <a type="button" class="btn btn-dark" routerLink="/Contact">
           <mdb-icon fas icon="envelope"></mdb-icon>Contact<span class="sr-only">(current)</span>
@@ -42,7 +45,7 @@
             <div class="form-outline mb-4">
               <input type="email" id="form1Example13" class="form-control form-control-lg" placeholder="E-mail" formControlName="username" required />
             </div>
-  
+
             <div class="form-outline mb-4">
               <input type="password" id="form1Example23" class="form-control form-control-lg" placeholder="Password" formControlName="password" required/>
             </div>
@@ -50,15 +53,15 @@
             <div class="form-outline mb-4">
                 <input type="password" id="form1Example23" class="form-control form-control-lg" placeholder="Confirm password" formControlName="confPassword" required/>
             </div>
-  
-  
+
+
             <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
-  
+
           </form>
         </div>
       </div>
     </div>
   </section>
-  
-  
+
+
   <router-outlet></router-outlet>

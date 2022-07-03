@@ -1,0 +1,44 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-dark" [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Home</a></mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <button type="button" class="btn btn-dark" routerLink="/login"><mdb-icon fas icon="gift"></mdb-icon>Oferte speciale</button>
+      </li>
+      <li class="nav-item active">
+        <a type="button" class="btn btn-dark" routerLink="/Contact">
+          <mdb-icon fas icon="envelope"></mdb-icon>Contact<span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-dark"><mdb-icon fas icon="cog"></mdb-icon> Setari</button>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item">
+        <a *ngIf="!loggedin()" type="button" class="btn btn-dark" routerLink="/login"><mdb-icon fas icon="user"></mdb-icon>Login</a>
+        <a *ngIf="loggedin()" type="button" class="btn btn-dark" (click)="GetOut()"><mdb-icon fas icon="user"></mdb-icon>Log out</a>
+      </li>
+    </ul>
+    <!-- Links -->
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+
+
+<div class="elements">
+  <img [src]="produs.Image" style="width: 300px; height: 300px;">
+  <div>An fabricatie:2018</div>
+  <div>RAM: 3GB</div>
+  <div>Memorie: 256GB</div>
+  <div>Camera foto: 24MP</div>
+  <button type="button" class="btn btn-sm btn-outline-primary" (click)="AddHandleEvent(produs)">Adauga in cos</button>
+</div>
+

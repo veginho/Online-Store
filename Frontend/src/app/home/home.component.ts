@@ -32,9 +32,20 @@ export class HomeComponent implements OnInit {
   InputTerm:string
   Minim:string
   Maxim:string
+  SortOption:string
   ngOnInit(): void {
   }
-  
+  getEvent(data:string){
+    this.Minim=data;
+    console.log(this.Minim);
+  }
+  getMaxim(data:string){
+    this.Maxim=data;
+    console.log(this.Maxim);
+  }
+  getSortOption(data:string){
+    this.SortOption=data;
+  }
   loggedin(){
     return localStorage.getItem("user");
   }
@@ -45,13 +56,13 @@ export class HomeComponent implements OnInit {
 
   onSubmit(){
     console.log("E ok");
-  } 
+  }
   SaveChanges(){
     this.service.UpdatePassword(this.form.value.newpass,this.form.value.oldpass).subscribe(data=>{
       alert(data);
     })
-    
+
   }
-  
-  
+
+
 }

@@ -15,7 +15,7 @@ export class CartComponent implements OnInit {
   cartItemId=1;
   cartItems:Array<any>=[]
   ngOnInit(): void {
-    console.log(this.cartItems)
+    console.log("Make cart items permanent in app")
     this.service.getMessage().subscribe((product : Products)=>{
       this.AddToCart(product)
     })
@@ -37,7 +37,6 @@ export class CartComponent implements OnInit {
     if(!ProductExist){
       this.cartItems.push(new CartItem(this.cartItemId++,product,1));
     }
-    
   }
 
   Order():void{
@@ -46,5 +45,5 @@ export class CartComponent implements OnInit {
       this.cartItems.length=0;
     });
   }
-    
+
 }

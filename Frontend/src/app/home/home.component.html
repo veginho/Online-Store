@@ -2,13 +2,16 @@
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-dark" [containerInside]="false">
 
     <!-- Navbar brand -->
-    <mdb-navbar-brand><a class="navbar-brand" href="#">Amanet Store</a></mdb-navbar-brand>
-  
+    <mdb-navbar-brand><a class="navbar-brand" href="#">Home</a></mdb-navbar-brand>
+
     <!-- Collapsible content -->
     <links>
-  
+
       <!-- Links -->
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <button type="button" class="btn btn-dark" routerLink="/login"><mdb-icon fas icon="gift"></mdb-icon>Oferte speciale</button>
+        </li>
         <li class="nav-item active">
           <a type="button" class="btn btn-dark" routerLink="/Contact">
             <mdb-icon fas icon="envelope"></mdb-icon>Contact<span class="sr-only">(current)</span>
@@ -17,34 +20,38 @@
         <li class="nav-item">
           <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#basicExample" (click)="frame.show()" mdbWavesEffect style="width: 100%;"><mdb-icon fas icon="cog"></mdb-icon> Setari</button>
         </li>
-  
+
         <!-- Dropdown -->
         <li class="nav-item">
             <a *ngIf="!loggedin()" type="button" class="btn btn-dark" routerLink="/login"><mdb-icon fas icon="user"></mdb-icon>Login</a>
             <a *ngIf="loggedin()" type="button" class="btn btn-dark" (click)="GetOut()"><mdb-icon fas icon="user"></mdb-icon>Log out</a>
         </li>
+
+
       </ul>
       <!-- Links -->
     </links>
     <!-- Collapsible content -->
-  
   </mdb-navbar>
+
+
+
   <!--/.Navbar-->
   <div class="d-flex justify-content-center">
     <div class="md-form">
       <input type="text" class="form-control form-control-md" [(ngModel)]="InputTerm" placeholder="Cauta produse" >
     </div>
   </div>
-  
+
 <!-- [(ngModel)]="term"  -->
 
   <div class="container">
     <div class="row">
       <div class="col">
-        <app-filters></app-filters>
+        <app-filters (minim)="getEvent($event)" (maxim)="getMaxim($event)" (options)="getSortOption($event)"></app-filters>
       </div>
       <div class="col-md-8">
-        <app-product-list  [term]="InputTerm"></app-product-list>
+        <app-product-list  [term]="InputTerm" [minim]="Minim" [maxim]="Maxim" [sortOption]="SortOption"></app-product-list>
       </div>
       <div class="col">
         <app-cart></app-cart>
@@ -53,7 +60,7 @@
     </div>
   </div>
 
-  
+
 <div mdbModal #frame="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
 aria-hidden="true">
 <div class="modal-dialog" role="document">
@@ -78,7 +85,7 @@ aria-hidden="true">
         </div>
     </form>
     </div>
-    
+
     <div class="modal-footer">
       <button type="button" mdbBtn color="primary" class="waves-light" mdbWavesEffect data-dismiss="modal" (click)="frame.hide()">Close</button>
       <button mdbBtn color="primary" class="waves-light" mdbWavesEffect (click)="SaveChanges()">Salveaza Modificarile</button>
@@ -88,6 +95,5 @@ aria-hidden="true">
 </div>
 
   <router-outlet></router-outlet>
-    
-    
-  
+
+

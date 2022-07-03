@@ -14,6 +14,7 @@ import { ProductListComponent } from './home/product-list/product-list.component
 import { CartComponent } from './home/cart/cart.component';
 import { RegisterComponent } from './register/register.component';
 import { ContactComponent } from './contact/contact.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { ContactComponent } from './contact/contact.component';
     CartComponent,
     RegisterComponent,
     ContactComponent,
+    ProductDetailsComponent,
   ],
   imports: [
     BrowserModule,

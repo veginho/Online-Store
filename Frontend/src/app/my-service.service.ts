@@ -43,8 +43,8 @@ export class MyServiceService {
     return this.http.post(this.APIurl+'/products/updateprice',{IDProdus:IDProd,PretNou:newPrice});
   }
 
-  SendFilter(minim:any,maxim:any){
-    return this.http.post(this.APIurl+'/products/filter',{Minim:minim,Maxim:maxim});
+  SendFilter(minim:any,maxim:any,sort:any){
+    return this.http.post(this.APIurl+'/products/filter',{Minim:parseInt(minim),Maxim:parseInt(maxim),SortType:sort});
   }
 
 }
